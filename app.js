@@ -10,7 +10,7 @@ app.get("/", function (requests, responce) {
             console.log(data);
         })
     });
-  responce.send("server is up and running");
+  responce.send("server is up and Running");
 });
 
 app.listen(3000, function (requests, responce) {
